@@ -262,6 +262,8 @@ $access.Visible = $true
 
 # import excel file into a new table 
 $tableName = 'webserver'
+
+# import the entire worksheet '01-WebServer'. Insert a '!' at the back.
 $range = "01_WebServer!" 
 Import-MsAccessExcel -Access $access -Path $xlFile -TableName $tableName -HasFieldNames $range
 
