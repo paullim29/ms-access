@@ -240,7 +240,7 @@ function New-MsAccessDB
 # Examples:
 
 $dbPath = $PSScriptRoot + '\database.accdb'
-$xlFile = $PSScriptRoot + '\ICA_G3_Cert_Ownership_internal_2019-12.xlsx'
+$xlFile = $PSScriptRoot + '\test.xlsx'
 
 $access = New-Object -ComObject Access.Application
 
